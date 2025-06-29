@@ -54,9 +54,9 @@ Thread A                           Thread B
 ---------                          ---------
 read balance (1000)                read balance (1000)
 ↓                                  ↓
-write balance (1000 - 500 = 500)   write balance (1000 - 200 = 800)
+write balance (1000 - 100 = 900)   write balance (1000 - 100 = 900)
 ↓                                  ↓
-잔액: 800 (원래는 300이어야 함.)
+잔액: 900 (원래는 800이어야 함.)
 ```
 
 ---
